@@ -1,0 +1,20 @@
+#!/bin/bash
+
+arg1="$1"
+arg2="$2"
+
+arg3="download"
+arg3="$3"
+if [ $arg1 == "-u" ]; then
+	wget -S --post-file $arg2 station307.com 2>&1 | grep located-at
+	echo ""
+	echo "Press Ctrl + C after downloading file to terminate session"
+elif [ $arg1 == "-d" ]; then
+		wget https://get.station307.com/$arg2/download
+		mv download $arg3
+else
+	echo "stos syntax:"
+	echo "	-d [code] = download file using the Station307 generated code"
+	echo "	-u [file] = uploads file to Station307 and displays code to downlad using the -d argument" 
+	echo""
+fi

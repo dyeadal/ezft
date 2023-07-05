@@ -1,9 +1,10 @@
 # EZ File Transfer
+
 Created by dyeadal
 
 Easily upload files through your web browser to a GNU Linux computer.
 
-Pre-requistes: 
+### Pre-requistes: 
 ---
 - GNU Linux computer
 - Python 3.10
@@ -19,7 +20,7 @@ Why would you use this?
 I am not responsible for any intellectual property or sensitive data used 
 
 
-To Do List
+### To Do List
 ---
 - Edit HTML front end for frienlier UI, and mobile-experience
 - Add commented templates in PHP script to easily use and edit by users

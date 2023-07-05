@@ -2,8 +2,6 @@
 
 Created by dyeadal
 
-Easily upload files through your web browser to a GNU Linux computer.
-
 ### Pre-requistes: 
 ---
 - GNU Linux computer
